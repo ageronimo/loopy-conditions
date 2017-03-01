@@ -7,6 +7,16 @@
  * @return { Number }
  */
 
+function greaterNumber(a,b){
+  if (a > b){
+    console.log(a);
+    return a;
+  } else {
+    console.log(b);
+    return b;
+  }
+}
+greaterNumber(6, 28);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,6 +28,20 @@
  * @return { String }
  */
 
+function stringOfNumbers(n){
+  var i;
+  var numbers = [];
+  for(i=0; i<n.length; i++){
+    n = n-i;
+    numbers.push(n);
+  }
+  if (numbers.length == n){
+    console.log(numbers.toString());
+    
+  }
+}
+//for loop, iterate number of times from 0 to para, push all number for loop creates into array, find method that creates string
+stringOfNumbers(6);
 
 /**
  * Create a function called 'sumOfArray'.
@@ -28,6 +52,11 @@
  * @return { Number }
  */
 
+coolArray = [2, 4, 6, 10];
+
+function sumOfArray(arr){
+
+}
 
 /**
  * Create a function called 'getEvens'.
